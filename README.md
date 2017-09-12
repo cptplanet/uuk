@@ -1,5 +1,5 @@
 # uuk
-ubuntu update kernel - show/install latest kernel (RC or not)
+ubuntu update kernel - show/download/install latest kernel (RC or not)
 Requirements:
 1. Python 3
 2. BeautifulSoup
