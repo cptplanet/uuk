@@ -22,6 +22,7 @@ class UrlList(Sequence):
             print(link.strip('v/'))
 
     def drop_rc(self):
+        ''' remove RC kernels from the list '''
         clean = []
         for link in self.links:
             if not re.search("rc\d", link):
